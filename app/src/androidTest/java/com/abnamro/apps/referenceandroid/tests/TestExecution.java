@@ -37,7 +37,7 @@ public class TestExecution {
     }
 
     @Test  //TestCase1: Check the "Hello World!" text on th home page
-    public void HomePageTest() throws InterruptedException {
+    public void TestCase1() throws InterruptedException {
         Thread.sleep(3000);
         HomePage.ControlText();
 
@@ -46,7 +46,7 @@ public class TestExecution {
     @Test //TestCase2:
     // Step: Click the options button on Toolbar
     //expected result: Settings menu must be opened
-    public void ToolbarTest() throws InterruptedException {
+    public void TestCase2() throws InterruptedException {
         SettingsMenu.settingOpen();
 
     }
@@ -54,7 +54,7 @@ public class TestExecution {
    @Test //TestCase3:
    // Step: Click the setting menu
     //Expected result: setting menu must be closed
-    public void SettingMenuTest()  throws InterruptedException {
+    public void TestCase3()  throws InterruptedException {
 
         SettingsMenu.settingOpen();
         Thread.sleep(2000);
@@ -64,16 +64,25 @@ public class TestExecution {
     @Test //TestCase4:
     // step: Click the fab
     //Expected Result: check the "Replace with your own action" text on snackbar
-    public void FabTest() throws InterruptedException {
+    public void TestCase4() throws InterruptedException {
         Fab.FabButton();
     }
     @Test //TestCase5:
     // Step: click the fab
-    // Step: click the option button obtoolbar
+    // Step: click the option button on toolbar
     // Expected Result: Settings menu must be open
     public void TestCase5() throws InterruptedException {
         Fab.FabButton();
         SettingsMenu.settingOpen();
+    }
+    @Test //TestCase6:
+    // (this is failure scenario, the snackbar not open at the first click after click the optıon button)
+    //Step: click the optıon buton on toolbar
+    //Step: click the fab
+    //Expected Result: Snackbar must be opened
+    public void TestCase6() throws InterruptedException{
+        SettingsMenu.settingOpen();
+        Fab.FabButton();
     }
 
 
