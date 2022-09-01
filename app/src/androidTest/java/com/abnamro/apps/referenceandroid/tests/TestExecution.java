@@ -43,14 +43,16 @@ public class TestExecution {
 
     }
 
-    @Test //TestCase2: Click the options button on Toolbar
+    @Test //TestCase2:
+    // Step: Click the options button on Toolbar
     //expected result: Settings menu must be opened
     public void ToolbarTest() throws InterruptedException {
         SettingsMenu.settingOpen();
 
     }
 
-   @Test //TestCase3: Click the setting menu
+   @Test //TestCase3:
+   // Step: Click the setting menu
     //Expected result: setting menu must be closed
     public void SettingMenuTest()  throws InterruptedException {
 
@@ -59,10 +61,19 @@ public class TestExecution {
         SettingsMenu.clickSettings();
 
     }
-    @Test //TestCase4: Click the fab button
-    //Expected Result: check the "Replace with your own action" text.
+    @Test //TestCase4:
+    // step: Click the fab
+    //Expected Result: check the "Replace with your own action" text on snackbar
     public void FabTest() throws InterruptedException {
         Fab.FabButton();
+    }
+    @Test //TestCase5:
+    // Step: click the fab
+    // Step: click the option button obtoolbar
+    // Expected Result: Settings menu must be open
+    public void TestCase5() throws InterruptedException {
+        Fab.FabButton();
+        SettingsMenu.settingOpen();
     }
 
 
