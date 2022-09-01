@@ -9,6 +9,7 @@ import androidx.test.rule.ActivityTestRule;
 import com.abnamro.apps.referenceandroid.MainActivity;
 import com.abnamro.apps.referenceandroid.POM.Fab;
 import com.abnamro.apps.referenceandroid.POM.HomePage;
+import com.abnamro.apps.referenceandroid.POM.LoginTest;
 import com.abnamro.apps.referenceandroid.POM.SettingsMenu;
 
 import org.junit.After;
@@ -83,6 +84,14 @@ public class TestExecution {
     public void TestCase6() throws InterruptedException{
         SettingsMenu.settingOpen();
         Fab.FabButton();
+    }
+    @Test //TestCase7:
+    //Step: enter right username
+    //Step: enter right passwd
+    //Step : click login button
+    //Expected Result : toast message must be succes
+    public void TestCase7() throws InterruptedException{
+        LoginTest.LoginSuccess();
     }
 
 

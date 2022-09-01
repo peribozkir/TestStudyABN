@@ -5,10 +5,17 @@ import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity;
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.Button
+import android.widget.EditText
+import android.widget.Toast
 
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
+
+    lateinit var username : EditText
+    lateinit var passwd : EditText
+    lateinit var Loginbtn : Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -18,6 +25,22 @@ class MainActivity : AppCompatActivity() {
         fab.setOnClickListener { view ->
             Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                 .setAction("Action", null).show()
+        }
+
+        username = findViewById(R.id.username) as EditText
+        passwd = findViewById(R.id.password) as EditText
+        Loginbtn = findViewById(R.id.button) as Button
+
+        Loginbtn.setOnClickListener {
+
+            if(username.text.toString().equals("peribozkir") && passwd.text.toString().equals("12345")) {
+                //login succesfull
+                Toast.makeText(this,"Login Succesfull!", Toast.LENGTH_SHORT).show()
+
+            } else
+            {   // login failed!
+                Toast.makeText(this,"Login Failed!", Toast.LENGTH_SHORT).show()
+            }
         }
     }
 
