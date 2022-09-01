@@ -1,9 +1,12 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.lifecycle:lifecycle-livedata:2.0.0@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/Desktop/AsessmentABN/testersassessment-android/testersassessment-android/gradle/caches/transforms-2/files-2.1/6c4ee785ca3a126239b8890a5436108e/lifecycle-livedata-2.0.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/Desktop/AsessmentABN/testersassessment-android/testersassessment-android/gradle/caches/transforms-2/files-2.1/6c4ee785ca3a126239b8890a5436108e/lifecycle-livedata-2.0.0/res" />
-      <root url="file://$USER_HOME$/Desktop/AsessmentABN/testersassessment-android/testersassessment-android/gradle/caches/transforms-2/files-2.1/6c4ee785ca3a126239b8890a5436108e/lifecycle-livedata-2.0.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/Desktop/AsessmentABN/testersassessment-android/testersassessment-android/gradle/caches/transforms-3/f8ff5788e3ae0f9aa58ea53e3cb73ef5/transformed/lifecycle-livedata-2.0.0/res" />
+      <root url="file://$USER_HOME$/Desktop/AsessmentABN/testersassessment-android/testersassessment-android/gradle/caches/transforms-3/2de04a6e37a9e4d7c2852724aab41e2d/transformed/lifecycle-livedata-2.0.0/res" />
+      <root url="jar://$USER_HOME$/Desktop/AsessmentABN/testersassessment-android/testersassessment-android/gradle/caches/transforms-3/1bc3b22915bf78ec10269c621e59c195/transformed/lifecycle-livedata-2.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/Desktop/AsessmentABN/testersassessment-android/testersassessment-android/gradle/caches/transforms-3/1bc3b22915bf78ec10269c621e59c195/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/Desktop/AsessmentABN/testersassessment-android/testersassessment-android/gradle/caches/transforms-3/1bc3b22915bf78ec10269c621e59c195/transformed/lifecycle-livedata-2.0.0/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

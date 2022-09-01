@@ -8,7 +8,7 @@ import static androidx.test.espresso.matcher.ViewMatchers.withText;
 
 import org.hamcrest.Description;
 
-public class HomePage  extends EspressoBaseTest{
+public class HomePage {
 
     public static void ControlText(){
         //check the "hello world" text on main activity

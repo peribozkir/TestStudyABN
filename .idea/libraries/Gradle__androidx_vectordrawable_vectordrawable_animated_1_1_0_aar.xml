@@ -1,9 +1,12 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.vectordrawable:vectordrawable-animated:1.1.0@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/Desktop/AsessmentABN/testersassessment-android/testersassessment-android/gradle/caches/transforms-2/files-2.1/333902c49ca38949b65069d86eac632c/vectordrawable-animated-1.1.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/Desktop/AsessmentABN/testersassessment-android/testersassessment-android/gradle/caches/transforms-2/files-2.1/333902c49ca38949b65069d86eac632c/vectordrawable-animated-1.1.0/res" />
-      <root url="file://$USER_HOME$/Desktop/AsessmentABN/testersassessment-android/testersassessment-android/gradle/caches/transforms-2/files-2.1/333902c49ca38949b65069d86eac632c/vectordrawable-animated-1.1.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/Desktop/AsessmentABN/testersassessment-android/testersassessment-android/gradle/caches/transforms-3/0fc3d28e8af798b9a38b90d9819f1c31/transformed/vectordrawable-animated-1.1.0/res" />
+      <root url="file://$USER_HOME$/Desktop/AsessmentABN/testersassessment-android/testersassessment-android/gradle/caches/transforms-3/0119d823d258a1e5cd3e9a38c388af84/transformed/vectordrawable-animated-1.1.0/res" />
+      <root url="jar://$USER_HOME$/Desktop/AsessmentABN/testersassessment-android/testersassessment-android/gradle/caches/transforms-3/cccc6b644add48dc685340717c7ebde0/transformed/vectordrawable-animated-1.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/Desktop/AsessmentABN/testersassessment-android/testersassessment-android/gradle/caches/transforms-3/cccc6b644add48dc685340717c7ebde0/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/Desktop/AsessmentABN/testersassessment-android/testersassessment-android/gradle/caches/transforms-3/cccc6b644add48dc685340717c7ebde0/transformed/vectordrawable-animated-1.1.0/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

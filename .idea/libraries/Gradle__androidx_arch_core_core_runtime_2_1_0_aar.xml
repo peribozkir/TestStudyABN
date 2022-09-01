@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.arch.core:core-runtime:2.1.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/Desktop/AsessmentABN/testersassessment-android/testersassessment-android/gradle/caches/transforms-3/04988d9c5fd3f0a910c19cf369f699a3/transformed/core-runtime-2.1.0/res" />
+      <root url="file://$USER_HOME$/Desktop/AsessmentABN/testersassessment-android/testersassessment-android/gradle/caches/transforms-3/6a13cc8cb79c1200ca77d150341cdcc8/transformed/core-runtime-2.1.0/res" />
+      <root url="file://$USER_HOME$/Desktop/AsessmentABN/testersassessment-android/testersassessment-android/gradle/caches/transforms-3/9d1e8364e8143ba14f8e23a90fc55aec/transformed/core-runtime-2.1.0/res" />
+      <root url="file://$USER_HOME$/Desktop/AsessmentABN/testersassessment-android/testersassessment-android/gradle/caches/transforms-3/9d1e8364e8143ba14f8e23a90fc55aec/transformed/core-runtime-2.1.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/Desktop/AsessmentABN/testersassessment-android/testersassessment-android/gradle/caches/transforms-3/9d1e8364e8143ba14f8e23a90fc55aec/transformed/core-runtime-2.1.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Desktop/AsessmentABN/testersassessment-android/testersassessment-android/gradle/caches/modules-2/files-2.1/androidx.arch.core/core-runtime/2.1.0/f19886651c9946b39f83d8c184fd0e2ce9f43c16/core-runtime-2.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

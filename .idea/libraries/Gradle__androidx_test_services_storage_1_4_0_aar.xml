@@ -1,9 +1,12 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.test.services:storage:1.4.0@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/Desktop/AsessmentABN/testersassessment-android/testersassessment-android/gradle/caches/transforms-2/files-2.1/65c3d3a776d784b8aa932855fbcdcab3/jetified-storage-1.4.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/Desktop/AsessmentABN/testersassessment-android/testersassessment-android/gradle/caches/transforms-2/files-2.1/65c3d3a776d784b8aa932855fbcdcab3/jetified-storage-1.4.0/res" />
-      <root url="file://$USER_HOME$/Desktop/AsessmentABN/testersassessment-android/testersassessment-android/gradle/caches/transforms-2/files-2.1/65c3d3a776d784b8aa932855fbcdcab3/jetified-storage-1.4.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/Desktop/AsessmentABN/testersassessment-android/testersassessment-android/gradle/caches/transforms-3/21726b5da0501030781926cc4b612b73/transformed/jetified-storage-1.4.0/res" />
+      <root url="file://$USER_HOME$/Desktop/AsessmentABN/testersassessment-android/testersassessment-android/gradle/caches/transforms-3/81fc227b2477627d2dffe8348010aa8f/transformed/jetified-storage-1.4.0/res" />
+      <root url="file://$USER_HOME$/Desktop/AsessmentABN/testersassessment-android/testersassessment-android/gradle/caches/transforms-3/70cefb18549f7050c642e0513cc9b7de/transformed/jetified-storage-1.4.0/res" />
+      <root url="jar://$USER_HOME$/Desktop/AsessmentABN/testersassessment-android/testersassessment-android/gradle/caches/transforms-3/70cefb18549f7050c642e0513cc9b7de/transformed/jetified-storage-1.4.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/Desktop/AsessmentABN/testersassessment-android/testersassessment-android/gradle/caches/transforms-3/70cefb18549f7050c642e0513cc9b7de/transformed/jetified-storage-1.4.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

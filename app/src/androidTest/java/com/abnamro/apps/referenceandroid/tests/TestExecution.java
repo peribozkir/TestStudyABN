@@ -7,6 +7,7 @@ import androidx.test.internal.runner.junit4.AndroidJUnit4ClassRunner;
 import androidx.test.rule.ActivityTestRule;
 
 import com.abnamro.apps.referenceandroid.MainActivity;
+import com.abnamro.apps.referenceandroid.POM.Fab;
 import com.abnamro.apps.referenceandroid.POM.HomePage;
 import com.abnamro.apps.referenceandroid.POM.SettingsMenu;
 
@@ -19,7 +20,7 @@ import org.junit.Test;
 @RunWith(AndroidJUnit4.class)
 @LargeTest
 
-public class TestExecution  extends ExampleInstrumentedTest{
+public class TestExecution {
 
     @Rule
     public ActivityScenarioRule<MainActivity> mActivityScenarioRule =
@@ -57,6 +58,11 @@ public class TestExecution  extends ExampleInstrumentedTest{
         Thread.sleep(2000);
         SettingsMenu.clickSettings();
 
+    }
+    @Test //TestCase4: Click the fab button
+    //Expected Result: check the "Replace with your own action" text.
+    public void FabTest() throws InterruptedException {
+        Fab.FabButton();
     }
 
 

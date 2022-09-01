@@ -1,9 +1,12 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.cursoradapter:cursoradapter:1.0.0@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/Desktop/AsessmentABN/testersassessment-android/testersassessment-android/gradle/caches/transforms-2/files-2.1/7dde37b4db0e3d21c23a2dace1a33927/cursoradapter-1.0.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/Desktop/AsessmentABN/testersassessment-android/testersassessment-android/gradle/caches/transforms-2/files-2.1/7dde37b4db0e3d21c23a2dace1a33927/cursoradapter-1.0.0/res" />
-      <root url="file://$USER_HOME$/Desktop/AsessmentABN/testersassessment-android/testersassessment-android/gradle/caches/transforms-2/files-2.1/7dde37b4db0e3d21c23a2dace1a33927/cursoradapter-1.0.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/Desktop/AsessmentABN/testersassessment-android/testersassessment-android/gradle/caches/transforms-3/adfef6a9dd561a286fc9feccef554060/transformed/cursoradapter-1.0.0/res" />
+      <root url="file://$USER_HOME$/Desktop/AsessmentABN/testersassessment-android/testersassessment-android/gradle/caches/transforms-3/d2a82f77b15e17baac1988df3488a15a/transformed/cursoradapter-1.0.0/res" />
+      <root url="jar://$USER_HOME$/Desktop/AsessmentABN/testersassessment-android/testersassessment-android/gradle/caches/transforms-3/027a45f839bd3dc324e79cc2198f1d8d/transformed/cursoradapter-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/Desktop/AsessmentABN/testersassessment-android/testersassessment-android/gradle/caches/transforms-3/027a45f839bd3dc324e79cc2198f1d8d/transformed/cursoradapter-1.0.0/res" />
+      <root url="file://$USER_HOME$/Desktop/AsessmentABN/testersassessment-android/testersassessment-android/gradle/caches/transforms-3/027a45f839bd3dc324e79cc2198f1d8d/transformed/cursoradapter-1.0.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

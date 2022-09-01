@@ -12,18 +12,20 @@ import android.view.View;
 import androidx.test.core.app.ApplicationProvider;
 import androidx.test.espresso.ViewInteraction;
 
+import com.abnamro.apps.referenceandroid.R;
+
 import org.hamcrest.Matcher;
 import org.hamcrest.core.AllOf;
 
 
-public class SettingsMenu extends EspressoBaseTest {
+public class SettingsMenu {
 
 
 
 
     public static void settingOpen() throws InterruptedException {
         //click the option menu on toolbar
-        openActionBarOverflowOrOptionsMenu(
+         openActionBarOverflowOrOptionsMenu(
                 ApplicationProvider.getApplicationContext());
 
 
@@ -46,8 +48,6 @@ public class SettingsMenu extends EspressoBaseTest {
                 check(matches(isEnabled()));
 
     }
-
-
 
 
 }
