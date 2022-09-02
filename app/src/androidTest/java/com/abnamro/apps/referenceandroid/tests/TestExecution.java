@@ -125,6 +125,14 @@ public class TestExecution {
     public void TestCase9() throws InterruptedException{
         LoginTest.LoginFailed2();
     }
+    @Test //TestCase10:
+    //Step: enter wrong username
+    //Step: enter right passwd
+    //Step: click login button
+    //Expected Result : toast message must be failed
+    public void TestCase10() throws InterruptedException{
+        LoginTest.LoginFailed3();
+    }
 
 
 }
