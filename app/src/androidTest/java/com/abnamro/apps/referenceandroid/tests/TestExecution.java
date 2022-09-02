@@ -1,5 +1,15 @@
 package com.abnamro.apps.referenceandroid.tests;
 
+import static androidx.test.espresso.Espresso.onView;
+import static androidx.test.espresso.assertion.ViewAssertions.matches;
+import static androidx.test.espresso.matcher.RootMatchers.withDecorView;
+import static androidx.test.espresso.matcher.ViewMatchers.isDisplayed;
+import static androidx.test.espresso.matcher.ViewMatchers.withId;
+import static androidx.test.espresso.matcher.ViewMatchers.withText;
+
+import static org.hamcrest.CoreMatchers.is;
+import static org.hamcrest.CoreMatchers.not;
+
 import androidx.test.ext.junit.rules.ActivityScenarioRule;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import androidx.test.filters.LargeTest;
@@ -11,6 +21,8 @@ import com.abnamro.apps.referenceandroid.POM.Fab;
 import com.abnamro.apps.referenceandroid.POM.HomePage;
 import com.abnamro.apps.referenceandroid.POM.LoginTest;
 import com.abnamro.apps.referenceandroid.POM.SettingsMenu;
+import com.abnamro.apps.referenceandroid.POM.ToastMatcher;
+import com.abnamro.apps.referenceandroid.R;
 
 import org.junit.After;
 import org.junit.Before;
@@ -26,6 +38,8 @@ public class TestExecution {
     @Rule
     public ActivityScenarioRule<MainActivity> mActivityScenarioRule =
             new ActivityScenarioRule<>(MainActivity.class);
+
+
 
     @Before
     public void setUp() throws Exception {
@@ -92,6 +106,16 @@ public class TestExecution {
     //Expected Result : toast message must be succes
     public void TestCase7() throws InterruptedException{
         LoginTest.LoginSuccess();
+
+
+    }
+    @Test //TestCase8:
+    //Step: enter wrong username
+    //Step: enter wrong passwd
+    //Step: click login button
+    //Expected Result : toast message must be failed
+    public void TestCase8() throws InterruptedException{
+        LoginTest.LoginFailed1();
     }
 
 

@@ -1,14 +1,13 @@
 package com.abnamro.apps.referenceandroid
 
 import android.os.Bundle
-import com.google.android.material.snackbar.Snackbar
-import androidx.appcompat.app.AppCompatActivity;
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
-
+import androidx.appcompat.app.AppCompatActivity
+import com.google.android.material.snackbar.Snackbar
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -35,11 +34,11 @@ class MainActivity : AppCompatActivity() {
 
             if(username.text.toString().equals("peribozkir") && passwd.text.toString().equals("12345")) {
                 //login succesfull
-                Toast.makeText(this,"Login Succesfull!", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this,"Login Succesfull!",Toast.LENGTH_LONG).show()
 
             } else
             {   // login failed!
-                Toast.makeText(this,"Login Failed!", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this,"Login Failed!", Toast.LENGTH_LONG).show()
             }
         }
     }
