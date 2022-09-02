@@ -35,14 +35,19 @@ import org.junit.Test;
 
 public class TestExecution {
 
+    private static final String ToastSucces = "Login Succesfull!";
+    private static final String ToastFailed = "Login Failed!";
+
     @Rule
-    public ActivityScenarioRule<MainActivity> mActivityScenarioRule =
+    public ActivityScenarioRule<MainActivity> mRule =
             new ActivityScenarioRule<>(MainActivity.class);
 
 
 
     @Before
     public void setUp() throws Exception {
+
+
 
     }
 
@@ -106,7 +111,6 @@ public class TestExecution {
     //Expected Result : toast message must be succes
     public void TestCase7() throws InterruptedException{
         LoginTest.LoginSuccess();
-
 
     }
     @Test //TestCase8:
